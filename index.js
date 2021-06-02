@@ -18,7 +18,8 @@ for(item of buttons){
             screen.value =eval(screenValue)
               }
         else if(buttonText=='CE'){
-            screen.value = screen.value.slice(0, - 1);
+            screenValue = screen.value.slice(0, - 1);
+            
         
         }      
        
